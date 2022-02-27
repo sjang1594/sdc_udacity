@@ -4,6 +4,10 @@
 ### Project Lists
 1. Image Manipulation - RGB 
 2. Neural Network
+    - Linear Regression
+    - Logistic Regression
+    - Softmax (Activation Function)
+    - Cross-Entropy
 ---
 ### Prerequisite - Installation
 1. Numpy - (Version)
