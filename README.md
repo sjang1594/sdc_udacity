@@ -1,19 +1,24 @@
-# Self-Driving Car Engineer Nanodegree
+## Repository Information
 
----
-### Project Lists
-1. Image Manipulation - RGB 
-2. Neural Network
-    - Linear Regression
-    - Logistic Regression
-    - Softmax (Activation Function)
-    - Cross-Entropy
----
-### Prerequisite - Installation
-1. Numpy - (Version)
-2. PIL - Image
-3. Matplotlib & Seaborn
-4. Tensorflow
+- This repository is for [Self Driving Car Engineer]() at Udacity. Folder Directory represents each chapters I've worked on.
 
-### Resources
-[Tensorflow Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+## Chapter 1. Computer Vision
+
+- Project: Object Detection in an Urban Environment
+
+## Chater 2. Sensor Fusion
+
+- Project: 3D Object Detection
+- Project: Sensor Fusion and Object Detection 
+
+## Chapter 3. Localization
+
+- Project: Scan Matching Localization
+
+## Chapter 4. Planning
+
+- Project: Motion Planning and Decision Making for Autonomous Vehicles
+
+## Chapter 5. Control
+
+- Project: Control and Trajectory Tracking for Autonomous  Vehicles
