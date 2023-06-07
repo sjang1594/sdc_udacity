@@ -2,4 +2,4 @@
 dataset/
 
 # clear result
-results/
+results/**
