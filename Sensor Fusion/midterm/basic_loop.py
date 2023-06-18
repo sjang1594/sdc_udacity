@@ -48,10 +48,11 @@ sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, EXE_L2)))
 sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, EXA_L2)))
 
 # import functions from individual exercise files
-# import l2_examples
+import l2_examples
 # import l2_exercises
 import l1_examples
 import l1_exercises
+
 
 
 ##################
@@ -104,8 +105,8 @@ while True:
         lidar_name = dataset_pb2.LaserName.TOP
 
         # Exercise C1-3-1 : print no. of vehicles
-        l1_exercises.print_no_of_vehicles(frame) 
-
+        # l1_exercises.print_no_of_vehicles(frame) 
+        
         # Example C1-3-2 : display camera image
         # l1_examples.display_image(frame)
 
@@ -147,9 +148,10 @@ while True:
         configs.conf_thresh = 0.5
         configs.model = 'darknet'
 
+
         # Example C2-3-1 : Crop point cloud
-        # lidar_pcl = l1_examples.range_image_to_point_cloud(frame, lidar_name, True)
-        # cropped_pcl = l2_examples.crop_pcl(lidar_pcl, configs, False)
+        lidar_pcl = l1_examples.range_image_to_point_cloud(frame, lidar_name, False)
+        cropped_pcl = l2_examples.crop_pcl(lidar_pcl, configs, True)
 
         # Exercise C2-3-2 : Transform metric point coordinates to BEV space
         # l2_exercises.pcl_to_bev(cropped_pcl, configs)
